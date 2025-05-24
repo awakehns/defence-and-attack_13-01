@@ -5,6 +5,7 @@
 Vbox у меня уже установлен, скачал и поставил образ виртуального диска ubuntu metasploitable, ввел в ту же сеть что и хост:
 
 Metasploitable:
+
 ![meta](/img/meta.png)
 
 Установка nmap и сканирование виртуальной машины:
@@ -16,6 +17,7 @@ sudo nmap -sS -sV -O 192.168.1.101
 ```
 
 Результат проверки:
+
 ![scan-1](/img/scan-1.png)
 
 Активные службы:
@@ -67,15 +69,19 @@ sudo nmap -sU 192.168.1.101       # UDP
 ```
 
 Пакеты SYN:
+
 ![scan-SYN](/img/scan-SYN.png)
 
 Пакеты FIN:
+
 ![scan-FIN](/img/scan-FIN.png)
 
 Пакеты Xmas:
+
 ![scan-Xmas](/img/scan-Xmas.png)
 
 Пакеты UDP:
+
 ![scan-UDP](/img/scan-UDP.png)
 
 Отличия режимов:
